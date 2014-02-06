@@ -1,70 +1,19 @@
 if (isServer) then {
-//TierIV NE Isle
-_vehicle_111119 = objNull;
+//kommentier mal bissl was sonst hab ich keine chance
+_vehicle_278 = objNull;
 if (true) then
 {
-  _this = createVehicle ["UNBasicWeapons_EP", [5355.1387, 5596.4316], [], 0, "CAN_COLLIDE"];
-  _vehicle_111119 = _this;
-  clearweaponcargoGlobal _this;
-  clearmagazinecargoGlobal _this;
-  _this setVariable ["permaLoot", true];
-  _this addWeaponCargoGlobal ["ItemEtool",1];
-  _this addmagazineCargoGlobal ["PartPlankPack",6];
-  _this addmagazineCargoGlobal ["PartPlywoodPack",6];
-  _this addmagazineCargoGlobal ["ItemSandbag",6];
-  _this addmagazineCargoGlobal ["ItemTankTrap",6];
-  _this addmagazineCargoGlobal ["ItemWire",6];
-  _this addmagazineCargoGlobal ["ItemTent",1];
-  _this setDir 455.6163;
-  _this setPos [5355.1387, 5596.4316, -3.0517578e-005];
+  _this = createVehicle ["Gunrack1", [18795.295, 10735.592, 0.00030517578], [], 0, "CAN_COLLIDE"];
+  _vehicle_278 = _this;
+  _this setPos [18795.295, 10735.592, 0.00030517578];
 };
-
-_vehicle_111120 = objNull;
+//kommentier mal bissl was sonst hab ich keine chance
+_vehicle_279 = objNull;
 if (true) then
 {
-  _this = createVehicle ["Gunrack1", [5382.6992, 5607.9644, 2.861809], [], 0, "CAN_COLLIDE"];
-  _vehicle_111120 = _this;
-  clearweaponcargoGlobal _this;
-  clearmagazinecargoGlobal _this;
-  _this setVariable ["permaLoot", true];
-  _this addWeaponCargoGlobal ["RPK_74",1];
-  _this addWeaponCargoGlobal ["AK_107_GL_Kobra",1];
-  _this addWeaponCargoGlobal ["SVD",1];
-  _this addWeaponCargoGlobal ["ItemMap",1];
-  _this addWeaponCargoGlobal ["ItemCompass",1];
-  _this addWeaponCargoGlobal ["ItemRadio",1];
-  _this addmagazineCargoGlobal ["75Rnd_545x39_RPK",3];
-  _this addmagazineCargoGlobal ["30Rnd_545x39_AK",3];
-  _this addmagazineCargoGlobal ["10Rnd_762x54_SVD",3];
-  _this setDir 638.56934;
-  _this setPos [5382.6992, 5607.9644, 2.861809];
-};
-
-_vehicle_111121 = objNull;
-if (true) then
-{
-  _this = createVehicle ["LocalBasicAmmunitionBox", [5395.9189, 5545.959], [], 0, "CAN_COLLIDE"];
-  _vehicle_111121 = _this;
-  clearweaponcargoGlobal _this;
-  clearmagazinecargoGlobal _this;
-  _this setVariable ["permaLoot", true];
-  _this addWeaponCargoGlobal ["ItemToolbox",3];
-  _this addmagazineCargoGlobal ["PartEngine",2];
-  _this addmagazineCargoGlobal ["PartGeneric",8];
-  _this addmagazineCargoGlobal ["PartWheel",5];
-  _this addmagazineCargoGlobal ["PartFueltank",2];
-  _this addmagazineCargoGlobal ["PartGlass",6];
-  _this addmagazineCargoGlobal ["ItemJerrycan",3];
-  _this setDir 725.02979;
-  _this setPos [5395.9189, 5545.959];
-};
-
-_vehicle_111122 = objNull;
-if (true) then
-{
-  _this = createVehicle ["GuerillaCacheBox", [5415.208, 5628.0903, 6.1035156e-005], [], 0, "CAN_COLLIDE"];
-  _vehicle_111122 = _this;
-   clearweaponcargoGlobal _this;
+  _this = createVehicle ["UNBasicWeapons_EP1", [18780.607, 10731.01, 6.1035156e-005], [], 0, "CAN_COLLIDE"];
+  _vehicle_279 = _this;
+  clearweaponcargoGlobal _this;							//ab hier
   clearmagazinecargoGlobal _this;
   _this setVariable ["permaLoot", true];
   _this addmagazineCargoGlobal ["FoodCanCorn",8];
@@ -75,8 +24,52 @@ if (true) then
   _this addmagazineCargoGlobal ["ItemMorphine",4];
   _this addmagazineCargoGlobal ["ItemBloodBag",2];
   _this addmagazineCargoGlobal ["ItemEpinephrine",3];
-  _this addmagazineCargoGlobal ["ItemAntibiotic",2];
-  _this setDir 728.89893;
-  _this setPos [5415.208, 5628.0903, 6.1035156e-005];
+  _this addmagazineCargoGlobal ["ItemAntibiotic",2];	//bis hier ist der loot
+  _this setDir 10.006892;
+  _this setPos [18780.607, 10731.01, 6.1035156e-005];
+};
+//kommentier mal bissl was sonst hab ich keine chance
+_vehicle_280 = objNull;
+if (true) then
+{
+  _this = createVehicle ["LocalBasicAmmunitionBox", [18783.795, 10741.031], [], 0, "CAN_COLLIDE"];
+  _vehicle_280 = _this;
+  _this setDir 74.937088;
+  _this setPos [18783.795, 10741.031];
+};
+
+_vehicle_281 = objNull;
+if (true) then
+{
+  _this = createVehicle ["GuerillaCacheBox", [18788.145, 10741.511, 6.1035156e-005], [], 0, "CAN_COLLIDE"];
+  _vehicle_281 = _this;
+  _this setDir 84.459564;
+  _this setPos [18788.145, 10741.511, 6.1035156e-005];
+};
+
+_vehicle_283 = objNull;
+if (true) then
+{
+  _this = createVehicle ["LocalBasicAmmunitionBox", [18920.799, 10723.293, 0.00045776367], [], 0, "CAN_COLLIDE"];
+  _vehicle_283 = _this;
+  _this setDir 74.937088;
+  _this setPos [18920.799, 10723.293, 0.00045776367];
+};
+
+_vehicle_285 = objNull;
+if (true) then
+{
+  _this = createVehicle ["LocalBasicAmmunitionBox", [18864.25, 10703.71, 0.00054931641], [], 0, "CAN_COLLIDE"];
+  _vehicle_285 = _this;
+  _this setDir 74.937088;
+  _this setPos [18864.25, 10703.71, 0.00054931641];
+};
+
+_vehicle_107 = objNull;
+if (true) then
+{
+  _this = createVehicle ["LocalBasicAmmunitionBox", [18912.988, 10744.978, -0.00054931641], [], 0, "CAN_COLLIDE"];
+  _vehicle_107 = _this;
+  _this setPos [18912.988, 10744.978, -0.00054931641];
 };
 };
