@@ -1,9 +1,9 @@
-//Marker on Map to show Tier IV NE Isle
-_t2neisle = createMarker ["t2neisle", [5390.8137, 5593.9946]];
-_t2neisle setMarkerText "Tier IV Military Base";
-_t2neisle setMarkerShape "RECTANGLE";
-_t2neisle setMarkerType "Flag";
-_t2neisle setMarkerColor "ColorBlue";
-_t2neisle setMarkerBrush "Horizontal";
-_t2neisle setMarkerSize [154, 144];
-t2neisle = _t2neisle;
+//Marker on Map to show Tier III Absturz
+_t3abst = createMarker ["t3abst", [18776.667, 10725.2898]];
+_t3abst setMarkerText "Tier IV Military Base";
+_t3abst setMarkerShape "RECTANGLE";
+_t3abst setMarkerType "Flag";
+_t3abst setMarkerColor "ColorReg";
+_t3abst setMarkerBrush "Horizontal";
+_t3abst setMarkerSize [120, 100];
+t3abst = _t3abst;
